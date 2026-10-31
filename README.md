@@ -71,3 +71,14 @@ const provider = {
 ## Что НЕ публикуется намеренно
 
 Цены и даты потоков (бот и сайт отправляют в WhatsApp), медицинские обещания «вылечим». Дисклеймер «не медицинское учреждение» показан в hero, в блоке состояний, в каждой статье, в футере и в чате — это требование оферты центра.
+
+## Демо на GitHub Pages
+
+Сайт опубликован как project site под подпапкой, поэтому собирается с префиксом:
+
+```bash
+node build.mjs --base /zhan-tan
+cd dist && touch .nojekyll && rm -f _redirects _headers && git init -b gh-pages && git add -A && git commit -m deploy && git push -f https://github.com/script-a-prod/zhan-tan.git gh-pages && cd .. && rm -rf dist/.git
+```
+
+Адрес: https://script-a-prod.github.io/zhan-tan/ (RU: `/zhan-tan/ru/`). Для боевого домена собирать без `--base`.
