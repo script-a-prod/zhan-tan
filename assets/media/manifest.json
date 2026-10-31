@@ -1,0 +1,97 @@
+{
+  "hero-lake": {
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "width": 1629,
+    "height": 1080,
+    "aspect": "1629/1080"
+  },
+  "lake-2": {
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "width": 1920,
+    "height": 1080,
+    "aspect": "1920/1080"
+  },
+  "meadow": {
+    "widths": [
+      480,
+      960
+    ],
+    "width": 1024,
+    "height": 768,
+    "aspect": "1024/768"
+  },
+  "meditate": {
+    "widths": [
+      480,
+      960
+    ],
+    "width": 1024,
+    "height": 1024,
+    "aspect": "1024/1024"
+  },
+  "yoga": {
+    "widths": [
+      480
+    ],
+    "width": 800,
+    "height": 485,
+    "aspect": "800/485"
+  },
+  "cold": {
+    "widths": [
+      480
+    ],
+    "width": 640,
+    "height": 443,
+    "aspect": "640/443"
+  },
+  "herbs-1": {
+    "widths": [
+      480
+    ],
+    "width": 600,
+    "height": 450,
+    "aspect": "600/450"
+  },
+  "herbs-2": {
+    "widths": [
+      480
+    ],
+    "width": 507,
+    "height": 507,
+    "aspect": "507/507"
+  },
+  "herbs-3": {
+    "widths": [
+      480
+    ],
+    "width": 884,
+    "height": 884,
+    "aspect": "884/884"
+  },
+  "food": {
+    "widths": [
+      480,
+      960
+    ],
+    "width": 1024,
+    "height": 576,
+    "aspect": "1024/576"
+  },
+  "jump": {
+    "widths": [
+      480
+    ],
+    "width": 900,
+    "height": 900,
+    "aspect": "900/900"
+  }
+}

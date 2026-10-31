@@ -1,0 +1,12 @@
+{
+  "name": "zhan-tan-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Жан мен Тән сауықтыру орталығы — static site (kk + ru)",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve",
+    "test": "node --test tests/"
+  }
+}
